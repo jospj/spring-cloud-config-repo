@@ -1,8 +1,9 @@
 spring:
   application:
     name: configclient
-  profiles:
-    active:dev,uat
+  config:
+    activate:
+      on-profile:dev,uat
 
 management:
   endpoints:
