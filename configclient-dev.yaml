@@ -1,9 +1,7 @@
 spring:
   application:
     name: configclient
-  profiles:
-    active: dev
-
+  
 management:
   endpoints:
     web:
