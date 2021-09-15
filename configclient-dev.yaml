@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8889
 
 endpoints:
   restart:
@@ -31,5 +31,5 @@ welcome:
       message: welcome
       user: Dev
       password: mysecret
-      encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
+      #encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
   
