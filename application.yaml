@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configserver
+
+management:
+  endpoints:
+    web:
+      base-path: "/admin"
+      exposure:
+        include: "*"
+  endpoint:
+    env:
+      post:
+        enabled: true
+logging:
+  level:
+    org.springframework.cloud: 'ALL'
