@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active:dev
+
+management:
+  endpoints:
+    web:
+      base-path: "/admin"
+      exposure:
+        include: "*"
+  endpoint:
+    env:
+      post:
+        enabled: true
+logging:
+  level:
+    org.springframework.cloud: 'DEBUG'
+welcome:  
+    client:  
+      message: welcome
+      user: Dev
+      password: mysecret
+      encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
+  
