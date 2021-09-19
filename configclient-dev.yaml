@@ -9,6 +9,20 @@ endpoints:
   health:
     sensitive: false
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      discovery:
+        enabled: true
+  endpoint:
+    env:
+      post:
+        enabled: true
+    shutdown:
+      enabled: true
+      
 logging:
   level:
     org.springframework.cloud: 'TRACE'
