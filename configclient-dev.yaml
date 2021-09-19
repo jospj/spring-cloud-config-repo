@@ -9,9 +9,11 @@ endpoints:
   health:
     sensitive: false
 
+#https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints
 management:
   endpoints:
     web:
+      base-path: "/manage"
       exposure:
         include: "*"
       discovery:
