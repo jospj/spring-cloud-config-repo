@@ -30,6 +30,6 @@ welcome:
     client:  
       message: welcome
       user: Dev
-      password: DEVmysecret
+      password: pass
       #encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
   
