@@ -1,0 +1,8 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: discoveryserver
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
