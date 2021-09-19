@@ -32,6 +32,5 @@ welcome:
     client:  
       message: welcome
       user: Dev
-      password: pass
-      #encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
+      password: '{cipher}a3c9c34e662f423ff7a91438cdda5e04627151d43ca1bd199e6f3dee215b55b9'
   

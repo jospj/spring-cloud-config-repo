@@ -22,6 +22,5 @@ welcome:
     client:  
       message: welcome
       user: Prod
-      password: mysecret
-      #encryptedPassword: '{cipher}682bc583f4641835fa2db009355293665d2647dade3375c0ee201de2a49f7bda'
+      password: '{cipher}b9acf13af9c3318642c4436ca22720665fa4c5dbae2d2262a5f0c2c58540e9a3'
   
