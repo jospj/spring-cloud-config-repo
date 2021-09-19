@@ -9,20 +9,6 @@ endpoints:
   health:
     sensitive: false
 
-spring:
-  application:
-    name: configclient
-  
-management:
-  endpoints:
-    web:
-      base-path: "/admin"
-      exposure:
-        include: "*"
-  endpoint:
-    env:
-      post:
-        enabled: true
 logging:
   level:
     org.springframework.cloud: 'TRACE'
