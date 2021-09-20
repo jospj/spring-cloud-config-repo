@@ -1,0 +1,26 @@
+server:
+  port: 0
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+      
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config
+      fail-fast: true
+      retry:
+        initial-interval: 1000
+        max-attempts: 10
+        max-interval: 10000
+        multiplier: 2
+
+counter:
+  message:
+    prefix: Hello World  
