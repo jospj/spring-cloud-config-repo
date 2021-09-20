@@ -7,3 +7,4 @@ Reads
 
 Eureka Server
 <li>https://www.baeldung.com/spring-cloud-bootstrapping</li>
+https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
