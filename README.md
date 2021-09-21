@@ -8,3 +8,6 @@ Reads
 Eureka Server
 <li>https://www.baeldung.com/spring-cloud-bootstrapping</li>
 https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
+
+Cloud Config Refresh Startegies
+<li>https://soshace.com/spring-cloud-config-refresh-strategies/</li>
